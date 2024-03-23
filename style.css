@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/image.jpg);
+    background-size: cover;
+    box-shadow: 0px 0px 100px 10px #2e2e2e;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+    height: 1005;
+    background: #e2e2e29b;
+    backdrop-filter: blur(30px);
+    border-radius: 20px;
+}
+
+form h2{
+    padding: 30px;
+    padding-bottom: 50px;
+    font-size: 40px;
+}
+
+form .input-field{
+    display: flex;
+    flex-direction: column;
+}
+
+form .input-field input:focus{
+    border: 2px solid #b0b0b0;
+}
+
+form .input-field.success input{
+    border: 2px solid #32d223;
+}
+
+form .input-field.error input {
+    border: 2px solid #f23131;
+}
+
+form .input-field label{
+    padding: 10px 0;
+    color: #3e3e3e;
+}
+
+form .input-field input{
+    padding: 15px 10px;
+    width: 300px;
+    padding-right: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid #e5e5e5;
+    font-size: 20px;
+}
+
+form .input-field .error{
+    font-size: 15px;
+    color: #ff0101;
+    padding: 10px 0;
+}
+
+button{
+    margin: 30px 0;
+    padding: 10px 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #a4a4a4;
+    color: #fff;
+    font-size: 20px;
+    box-shadow: 0px 0px 100px 10px #2e2e2e;
+}
